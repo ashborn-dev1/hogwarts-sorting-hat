@@ -1,5 +1,6 @@
 print("Welcome to the hogwarts Sorting Hat")
 
-bravery = input("Are you brave? ")
+bravery = input("Are you brave? ").lower()
 
-print(bravery)
+if bravery == "yes":
+    print("You belong in Gryffindor!")
